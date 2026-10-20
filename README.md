@@ -27,6 +27,7 @@ The dataset was downloaded from Kaggle and imported into PostgreSQL for analysis
 ## 4. Tools & Techniques
 
 **PostgreSQL**
+
 - Dataset import and exploration
 - Data quality checks and validation
 - SQL queries to answer business questions
@@ -34,6 +35,7 @@ The dataset was downloaded from Kaggle and imported into PostgreSQL for analysis
 - Analysis of loan and borrower categories
 
 **Power BI**
+
 - Data modelling and DAX measures
 - Calculated columns and risk bands
 - Interactive slicers and visualisations
@@ -65,7 +67,17 @@ Provides an overview of total loans, defaulted loans, default rate and loan char
 
 Explores borrower characteristics and financial indicators, including credit rating, employment status, employment tenure, number of credit lines and debt-to-income ratio. Interactive slicers allow further exploration across borrower groups.
 
-## 6. Key Findings
+## 6. Dashboard Screenshots
+
+### Page 1: Loan Portfolio and Default Overview
+
+![Loan Portfolio and Default Overview](Loan%20Portfolio%20and%20Default%20Overview.png)
+
+### Page 2: Borrower Profile and Financial Risk
+
+![Borrower Profile and Financial Risk](Borrower%20Profile%20and%20financial%20risk.png)
+
+## 7. Key Findings
 
 - **Loan Amount:** Default rates increased from 8.06% in the lowest loan band to 15.79% in the highest.
 - **Interest Rate:** Default rates increased from 6.02% in the lowest interest rate band to 17.82% in the highest.
@@ -73,19 +85,19 @@ Explores borrower characteristics and financial indicators, including credit rat
 - **Employment Tenure:** Default rates were 16.9% for borrowers with 0–1 year of employment and 8.9% for those with 5+ years.
 - **Debt-to-Income Ratio:** Default rates increased from 10.66% in the Low band to 12.15% in the Very High band.
 
-## 7. Business Recommendations
+## 8. Business Recommendations
 
 - Review affordability for higher loan amount segments.
 - Consider credit ratings and existing credit obligations during borrower assessment.
 - Assess employment stability alongside income and debt-to-income ratio.
 - Evaluate multiple risk indicators together rather than relying on a single factor.
 
-## 8. Conclusion
+## 9. Conclusion
 
 This project demonstrates how PostgreSQL and Power BI can be used together to move from raw data to business insights. SQL was used for data quality checks, validation and business analysis, while Power BI was used to communicate findings through an interactive dashboard.
 
 The findings highlight differences in observed default rates across loan and borrower categories and provide areas for further credit risk investigation.
 
-## 9. Disclaimer
+## 10. Disclaimer
 
 This is an independent portfolio project using a publicly available dataset. The findings represent observed associations and do not establish causation or constitute a validated lending model.
